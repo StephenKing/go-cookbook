@@ -6,7 +6,7 @@ when 'debian'
   include_recipe 'apt'
 
   apt_repository 'thoughtworks' do
-    uri 'http://download01.thoughtworks.com/go/debian'
+    uri 'http://dl.bintray.com/gocd/gocd-deb/'
     components ['contrib/']
   end
 
