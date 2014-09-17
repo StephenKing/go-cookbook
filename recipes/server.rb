@@ -4,7 +4,7 @@ when 'debian'
 
   apt_repository 'thoughtworks' do
     uri 'http://dl.bintray.com/gocd/gocd-deb/'
-    components ['contrib/']
+    components ['/']
   end
 
   package_options = '--force-yes'
